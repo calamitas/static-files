@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport"
+    entityID="091d760234a61683ae5e64867680975b"
+>
+    <md:Extensions>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    </md:Extensions>
+    <md:SPSSODescriptor
+        AuthnRequestsSigned="true"
+        WantAssertionsSigned="true"
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+    >
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:AssertionConsumerService
+            isDefault="true"
+            index="0"
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="http://localhost:1080/sso/acs"
+        />
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">UCB</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">UCB SA</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://www.ucb.com/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+        <md:SurName>XAOP Support</md:SurName>
+        <md:EmailAddress>mailto:info@xaop.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
