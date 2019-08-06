@@ -3,7 +3,7 @@
     xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
     xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport"
-    entityID="091d760234a61683ae5e64867680975b"
+    entityID="https://raw.githubusercontent.com/calamitas/static-files/master/kd4dm/dev.xml"
 >
     <md:Extensions>
         <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
